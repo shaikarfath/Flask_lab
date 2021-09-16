@@ -1,10 +1,12 @@
 /*Background styles*/
-
+#card{
+    background-color: cyan;
+}
 #Hero {
     width: 100%;
     height: 100vh;
     position: relative;
-    background: url("../css/images/background.jpg");
+    background: url("../css/images/background.jpg") center;
     background-size: cover;
     opacity: 0.9;
 }
@@ -23,19 +25,21 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 65px;
     text-align: center;
-    margin-top: 750px;
-    margin-left: 150px;
-    color: #f56c42;
+    margin-top: 650px;
+    margin-left: 100px;
+    color: #c4122a;
     }
 
 #Hero h2{
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
     text-align: center;
-    margin-top: 750px;
+    margin-top: 650px;
     margin-left: 250px;
-    color: #f56c42;
+    color: #c4122a;
     }
+
+
 
 @media (min-width: 1024px) {
     #Hero {
@@ -55,4 +59,67 @@
 
 
 /*Navbar Styles*/
+.navbar-brand h4 {
+    color:#521717;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.navbar-nav h3{
+    color:#521717;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.navbar-nav a{
+    margin-left: 100px;
+}
+
+/*About page styles*/
+img{
+    height:655px;
+    width:600px;
+    padding: 10px;
+    margin-left: 250px;
+}
+
+h5 {
+    color:#3673d6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+p{
+    color:#46635c;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+span {
+    color:chocolate;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Contact page styles*/
+
+.card label{
+    color:chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#card {
+    align-self: center;
+}
+
+/*Footer styles*/
+
+#footer {
+    background-color: #a0f2de;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 80px 0;
+    position: relative;
+}
 
